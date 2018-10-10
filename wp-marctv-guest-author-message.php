@@ -3,7 +3,7 @@
  * Plugin Name: Guest Author Message
  * Description: Displays a message if USP guest author is found on the post
  * Plugin URI:  https://marc.tv
- * Version:     0.1
+ * Version:     0.2
  * Text Domain: guest-author-message
  * Domain Path: /languages
  * GitHub Plugin URI: mtoensing/wp-marctv-guest-author-message
@@ -19,7 +19,7 @@ function marctv_wgam_add_info($content) {
 		$name =  get_post_meta( $post_id, 'user_submit_name', true );
 		$html = '';
 		$html .= '<p class="wgam-infobox">';
-		$html .= 'Dieser Gastartikel ist nicht von Marc sondern von ' . $name . '. Er wurde importiert von verschlichtern.de';
+		$html .= '<strong>Hinweis:</strong> Dieser Gastartikel stammt nicht von <a href="https://marc.tv/marc-toensing/">Marc</a>. Er wurde von ' . $name . ' geschrieben.';
 		$html .= '</p>';
 
 		return $html . $content;
