@@ -19,7 +19,7 @@ function marctv_wgam_add_info($content) {
 		$name =  get_post_meta( $post_id, 'user_submit_name', true );
 		$html = '';
 		$html .= '<p class="wgam-infobox">';
-		$html .= '<strong>Hinweis:</strong> Dieser Gastartikel stammt nicht von <a href="https://marc.tv/marc-toensing/">Marc</a>. Er wurde von ' . $name . ' geschrieben.';
+		$html .= '<strong>Hinweis:</strong> Dieser Gastartikel stammt von ' . $name . ' und wurde nicht von <a href="https://marc.tv/marc-toensing/">Marc</a> geschrieben.';
 		$html .= '</p>';
 
 		return $html . $content;
