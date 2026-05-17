@@ -3,7 +3,7 @@
  * Plugin Name: Guest Author Message
  * Description: Displays a message if USP guest author is found on the post
  * Plugin URI:  https://marc.tv
- * Version:     0.4
+ * Version:     0.4.1
  * Tested up to: 7.0
  * Text Domain: guest-author-message
  * Domain Path: /languages
