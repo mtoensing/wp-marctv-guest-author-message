@@ -4,6 +4,7 @@
  * Description: Displays a message if USP guest author is found on the post
  * Plugin URI:  https://marc.tv
  * Version:     0.4
+ * Tested up to: 7.0
  * Text Domain: guest-author-message
  * Domain Path: /languages
  * GitHub Plugin URI: mtoensing/wp-marctv-guest-author-message
